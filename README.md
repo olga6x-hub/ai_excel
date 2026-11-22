@@ -12,12 +12,19 @@
 
 ## Как забрать
 
+**Вариант 1 (проще):** скачать архив со страницы релиза —
+https://github.com/olga6x-hub/ai_excel/releases/tag/v1.0
+
+**Вариант 2 (с историей):**
+
 ```bash
-git clone <адрес-репозитория>
-cd ai-excel-delivery
-# распаковать архив
-unzip releases/ai-excel-v1.0-moodle-delivery.zip -d /tmp/ai-excel
+git clone https://github.com/olga6x-hub/ai_excel.git
+cd ai_excel
+unzip releases/ai-excel-v1.0-moodle-delivery.zip -d ../ai-excel-v1.0
 ```
+
+Контроль целостности: `sha256sum ai-excel-v1.0-moodle-delivery.zip` должен совпасть
+с `releases/SHA256SUMS.txt` (007da03e35d1ae506e984c6ee0d280ec005770e8b8ac8c92610f44a10ec53a66).
 
 Дальше — по разделу 3 `HANDOVER_MOODLE.md` (нулевой раздел → банк вопросов → три объекта →
 группы → SCORM-уроки → квизы → задания → датасеты → проверка ролью student).
