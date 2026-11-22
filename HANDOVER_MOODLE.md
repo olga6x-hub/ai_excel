@@ -7,9 +7,21 @@
 
 | Что | Где |
 |---|---|
-| Готовый архив (27,9 МБ, 98 файлов) | `courses/ai-excel/releases/ai-excel-v1.0-moodle-delivery.zip` |
-| Контрольная сумма | `courses/ai-excel/releases/SHA256SUMS.txt` |
-| Исходники курса (если нужны правки) | `courses/ai-excel/` в этом же репозитории |
+| Готовый архив (27,9 МБ, 99 файлов) | релиз **v1.0**: https://github.com/olga6x-hub/ai_excel/releases/tag/v1.0 |
+| Прямая ссылка на файл | https://github.com/olga6x-hub/ai_excel/releases/download/v1.0/ai-excel-v1.0-moodle-delivery.zip |
+| Копия в репозитории | `releases/ai-excel-v1.0-moodle-delivery.zip`, суммы — `releases/SHA256SUMS.txt` |
+| Исходники курса для правок | `sources/` в этом же репозитории |
+
+Репозиторий **приватный**: ссылка откроется после того, как вашу учётную запись GitHub добавят
+в коллабораторы с правом Read. Если доступа ещё нет — запросите архив напрямую у Ольги,
+файл тот же самый.
+
+**Проверка целостности** после скачивания:
+
+```bash
+sha256sum ai-excel-v1.0-moodle-delivery.zip
+# ожидается 007da03e35d1ae506e984c6ee0d280ec005770e8b8ac8c92610f44a10ec53a66
+```
 
 Архив самодостаточен: скачали, распаковали, собираете курс. Ничего доустанавливать не нужно,
 кроме Moodle 4.x.
@@ -80,7 +92,9 @@
 
 ## 7. Версии и пересборка
 
-- Версия v1.0 — первая передача (2026-11-22).
+- Версия v1.0 — первая передача (2026-11-22), опубликована релизом на GitHub:
+  https://github.com/olga6x-hub/ai_excel/releases/tag/v1.0
+  sha256 архива `007da03e…aec53a66`, 99 файлов.
 - Если поменялись уроки, квизы или датасеты: пересборка из корня репозитория
   `python tools/build_excel_delivery.py`, затем новая папка `releases/ai-excel-vX.Y-moodle-delivery.zip`
   и обновление `SHA256SUMS.txt`. Старые версии не удаляем: по ним могли уже собрать курс.
