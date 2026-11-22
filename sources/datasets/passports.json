@@ -1,0 +1,278 @@
+{
+ "A": {
+  "warmup": {
+   "rows": 300,
+   "rev": 5742912.5,
+   "prof": 1947619.94
+  },
+  "sales": {
+   "rows": 1800,
+   "qty_sum": 6780,
+   "codes": 6
+  },
+  "dirty": {
+   "phones": 731,
+   "emails": 640,
+   "notes": 62,
+   "passport": 2,
+   "cols_removed": 3,
+   "rows_out_of_ref": 24
+  },
+  "layer": {
+   "rev_sum": 27915616.5,
+   "prof_sum": 8911072.29,
+   "bonus_sum": 866107.9,
+   "big_deals": 12,
+   "not_found": 24,
+   "dup_rows": 6,
+   "seg_low": 1248,
+   "seg_mid": 552,
+   "seg_high": 0,
+   "margin_min": 15.57,
+   "margin_max": 44.68
+  },
+  "report": {
+   "total": 27915616.5,
+   "leader_region": "Москва",
+   "leader_region_rev": 8521673,
+   "top_mgr_prof": 1961867.71,
+   "top5": {
+    "Пылесос вертикальный": 4804986.0,
+    "Смарт-часы": 3159993.0,
+    "Микроволновая печь": 2799764.0,
+    "Набор кастрюль 5 пр.": 2032074.0,
+    "Обогреватель масляный": 1731670.5
+   },
+   "cat_share": {
+    "Электроника": 27.35,
+    "Бытовая техника": 36.15,
+    "Товары для дома": 22.58,
+    "Посуда": 13.93
+   },
+   "total_after20": 28534230.5
+  },
+  "insert": {
+   "rows": 20,
+   "rev": 618614.0
+  },
+  "b5": {
+   "base": 2326301.38,
+   "jan_rev": 2326301.38,
+   "net_base": 3898129.66,
+   "net_opt": 7728350.06,
+   "net_pess": -779408.16,
+   "min_cash_pess": -479408.21,
+   "gap_pess": "Июль",
+   "growth_fit": 0.034806,
+   "net_fit": 2999980.21,
+   "annuity": 91679.99,
+   "overpay": 100159.88
+  },
+  "b6": {
+   "rows_before": 408,
+   "dup_removed": 8,
+   "dates_fixed": 18,
+   "regions_fixed": 24,
+   "rows_after": 400,
+   "rev_after": 6311393.5,
+   "base6": 628435.58,
+   "net6_base": -3506628.71,
+   "net6_careful": -4062375.36
+  },
+  "b6_2": {
+   "rows_before": 408,
+   "dup_removed": 8,
+   "dates_fixed": 18,
+   "regions_fixed": 24,
+   "rows_after": 400,
+   "rev_after": 6603454.0,
+   "base6": 599808.75,
+   "net6_base": -3603809.16,
+   "net6_careful": -4134240.12
+  }
+ },
+ "B": {
+  "warmup": {
+   "rows": 300,
+   "rev": 5719973.0,
+   "prof": 1994245.92
+  },
+  "sales": {
+   "rows": 1800,
+   "qty_sum": 6950,
+   "codes": 6
+  },
+  "dirty": {
+   "phones": 731,
+   "emails": 640,
+   "notes": 62,
+   "passport": 2,
+   "cols_removed": 3,
+   "rows_out_of_ref": 24
+  },
+  "layer": {
+   "rev_sum": 27095366.5,
+   "prof_sum": 8542961.81,
+   "bonus_sum": 827262.35,
+   "big_deals": 6,
+   "not_found": 24,
+   "dup_rows": 6,
+   "seg_low": 1294,
+   "seg_mid": 506,
+   "seg_high": 0,
+   "margin_min": 15.57,
+   "margin_max": 44.68
+  },
+  "report": {
+   "total": 27095366.5,
+   "leader_region": "Москва",
+   "leader_region_rev": 7899577.5,
+   "top_mgr_prof": 1836011.76,
+   "top5": {
+    "Пылесос вертикальный": 3027270.0,
+    "Набор кастрюль 5 пр.": 2511960.0,
+    "Смарт-часы": 2500836.0,
+    "Микроволновая печь": 2367152.0,
+    "Портативная колонка": 2148400.0
+   },
+   "cat_share": {
+    "Электроника": 28.98,
+    "Бытовая техника": 29.41,
+    "Товары для дома": 25.46,
+    "Посуда": 16.16
+   },
+   "total_after20": 27486249.5
+  },
+  "insert": {
+   "rows": 20,
+   "rev": 390883.0
+  },
+  "b5": {
+   "base": 2257947.21,
+   "jan_rev": 2257947.21,
+   "net_base": 3582609.08,
+   "net_opt": 7300285.41,
+   "net_pess": -968065.68,
+   "min_cash_pess": -668065.71,
+   "gap_pess": "Май",
+   "growth_fit": 0.040018,
+   "net_fit": 2999983.84,
+   "annuity": 91679.99,
+   "overpay": 100159.88
+  },
+  "b6": {
+   "rows_before": 408,
+   "dup_removed": 8,
+   "dates_fixed": 18,
+   "regions_fixed": 24,
+   "rows_after": 400,
+   "rev_after": 5357020.0,
+   "base6": 496128.67,
+   "net6_base": -3983235.57,
+   "net6_careful": -4417737.36
+  },
+  "b6_2": {
+   "rows_before": 408,
+   "dup_removed": 8,
+   "dates_fixed": 18,
+   "regions_fixed": 24,
+   "rows_after": 400,
+   "rev_after": 6048506.0,
+   "base6": 555766.92,
+   "net6_base": -3784080.54,
+   "net6_careful": -4270812.6
+  }
+ },
+ "C": {
+  "warmup": {
+   "rows": 300,
+   "rev": 5230575.5,
+   "prof": 1794705.01
+  },
+  "sales": {
+   "rows": 1800,
+   "qty_sum": 6927,
+   "codes": 6
+  },
+  "dirty": {
+   "phones": 731,
+   "emails": 640,
+   "notes": 62,
+   "passport": 2,
+   "cols_removed": 3,
+   "rows_out_of_ref": 24
+  },
+  "layer": {
+   "rev_sum": 29264735.5,
+   "prof_sum": 9371437.56,
+   "bonus_sum": 918975.38,
+   "big_deals": 17,
+   "not_found": 24,
+   "dup_rows": 6,
+   "seg_low": 1268,
+   "seg_mid": 532,
+   "seg_high": 0,
+   "margin_min": 15.57,
+   "margin_max": 44.68
+  },
+  "report": {
+   "total": 29264735.5,
+   "leader_region": "Москва",
+   "leader_region_rev": 7696213.5,
+   "top_mgr_prof": 1983696.01,
+   "top5": {
+    "Пылесос вертикальный": 4431408.0,
+    "Смарт-часы": 3963429.0,
+    "Микроволновая печь": 2885262.0,
+    "Набор кастрюль 5 пр.": 2374020.0,
+    "Обогреватель масляный": 2027690.0
+   },
+   "cat_share": {
+    "Электроника": 28.83,
+    "Бытовая техника": 33.29,
+    "Товары для дома": 23.27,
+    "Посуда": 14.6
+   },
+   "total_after20": 29540124.5
+  },
+  "insert": {
+   "rows": 20,
+   "rev": 275389.0
+  },
+  "b5": {
+   "base": 2438727.96,
+   "jan_rev": 2438727.96,
+   "net_base": 4417087.01,
+   "net_opt": 8432416.13,
+   "net_pess": -469110.84,
+   "min_cash_pess": -169110.84,
+   "gap_pess": "Октябрь",
+   "growth_fit": 0.026504,
+   "net_fit": 3000006.81,
+   "annuity": 91679.99,
+   "overpay": 100159.88
+  },
+  "b6": {
+   "rows_before": 408,
+   "dup_removed": 8,
+   "dates_fixed": 18,
+   "regions_fixed": 24,
+   "rows_after": 400,
+   "rev_after": 6243293.5,
+   "base6": 671244.25,
+   "net6_base": -3351778.38,
+   "net6_careful": -3946853.52
+  },
+  "b6_2": {
+   "rows_before": 408,
+   "dup_removed": 8,
+   "dates_fixed": 18,
+   "regions_fixed": 24,
+   "rows_after": 400,
+   "rev_after": 6616727.5,
+   "base6": 701008.83,
+   "net6_base": -3250313.11,
+   "net6_careful": -3871775.28
+  }
+ }
+}

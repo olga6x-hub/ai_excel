@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 1/Вариант C</text></category>
+    <info format="html"><text><![CDATA[<p>Квиз блока 1, вариант C. Числовые вопросы по контрольным суммам датасета. Проходной балл 70%. Попытки не ограничены, берётся высшая оценка. Источник чисел: datasets/passports.json.</p>]]></text></info>
+    <idnumber>ax-b1-c</idnumber>
+  </question>
+  <question type="numerical">
+    <name><text>n-b1-01-C. Откройте файл для разминки warmup.xlsx, лист «Сделки». Посчи</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Откройте файл для разминки warmup.xlsx, лист «Сделки». Посчитайте сумму столбца «Выручка». Введите сумму в рублях (разделитель — точка). Ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Сумма считается по всем строкам листа, без строки заголовка.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b1-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>5230575.5</text>
+      <tolerance>26152.9</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 5 230 575,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b1-02-C. В том же файле warmup.xlsx посчитайте сумму столбца «Прибыль</text></name>
+    <questiontext format="html"><text><![CDATA[<p>В том же файле warmup.xlsx посчитайте сумму столбца «Прибыль». Введите сумму в рублях (разделитель — точка). Ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Если столбца «Прибыль» нет — его нужно было создать запросом агенту (Количество × Цена × (1 − Скидка/100) минус себестоимость).</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b1-02</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>1794705.01</text>
+      <tolerance>8973.53</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 1 794 705,01 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b1-03-C. Сколько строк с данными в листе «Сделки» файла warmup.xlsx? </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько строк с данными в листе «Сделки» файла warmup.xlsx? Строку заголовка не считайте.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Это первое число, которое стоит сообщить агенту в части «Контекст» формулы КЗФП.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b1-03</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>300</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 300 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 2/Вариант C</text></category>
+    <info format="html"><text><![CDATA[<p>Квиз блока 2, вариант C. Числовые вопросы по контрольным суммам датасета. Проходной балл 80%. Попытки не ограничены, берётся высшая оценка. Источник чисел: datasets/passports.json.</p>]]></text></info>
+    <idnumber>ax-b2-c</idnumber>
+  </question>
+  <question type="numerical">
+    <name><text>n-b2-01-C. Вы выполнили нулевой шаг и получили sales_2025_safe.xlsx. Ск</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Вы выполнили нулевой шаг и получили sales_2025_safe.xlsx. Сколько строк с данными осталось в листе «Сделки»?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Нулевой шаг удаляет колонки, а не строки: число строк не должно измениться.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b2-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>1800</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 1800 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b2-02-C. Посчитайте сумму выручки по всем строкам файла sales_2025_sa</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Посчитайте сумму выручки по всем строкам файла sales_2025_safe.xlsx (Количество × Цена × (1 − Скидка/100)). Введите сумму в рублях (разделитель — точка). Ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Это контрольное число «до и после»: очистка колонок не должна его изменить.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b2-02</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>29264735.5</text>
+      <tolerance>146324</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 29 264 735,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b2-03-C. Сколько уникальных кодов менеджеров осталось в файле sales_2</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько уникальных кодов менеджеров осталось в файле sales_2025_safe.xlsx?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Имена заменены кодами вида М1…М6; ключ соответствия остаётся локально и не сдаётся.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b2-03</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>6</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 6 кодов; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b2-04-C. Сколько колонок вы удалили при выполнении нулевого шага в фа</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько колонок вы удалили при выполнении нулевого шага в файле sales_2025.xlsx?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Удаляются колонки с персональными данными и чувствительными примечаниями.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b2-04</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>3</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 3 колонок; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 3/Вариант C</text></category>
+    <info format="html"><text><![CDATA[<p>Квиз блока 3, вариант C. Числовые вопросы по контрольным суммам датасета. Проходной балл 70%. Попытки не ограничены, берётся высшая оценка. Источник чисел: datasets/passports.json.</p>]]></text></info>
+    <idnumber>ax-b3-c</idnumber>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-01-C. В расчётном слое посчитана сумма столбца «Выручка». Введите </text></name>
+    <questiontext format="html"><text><![CDATA[<p>В расчётном слое посчитана сумма столбца «Выручка». Введите её в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Сверьте с эталоном reference_b3.xlsx, лист «Контроль».</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>29264735.5</text>
+      <tolerance>146324</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 29 264 735,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-02-C. Введите сумму столбца «Прибыль» расчётного слоя в рублях с т</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите сумму столбца «Прибыль» расчётного слоя в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Прибыль = Выручка − Себестоимость × Количество.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-02</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>9371437.56</text>
+      <tolerance>46857.2</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 9 371 437,56 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-03-C. Введите сумму столбца «Бонус» расчётного слоя в рублях с точ</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите сумму столбца «Бонус» расчётного слоя в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Бонус считается по правилу из карточки урока; округление — до копеек, как в табличном редакторе.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-03</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>918975.38</text>
+      <tolerance>4594.88</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 918 975,38 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-04-C. Сколько строк получили отметку «крупная сделка» в расчётном </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько строк получили отметку «крупная сделка» в расчётном слое?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Условие — выручка по строке больше 100 000.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-04</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>17</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 17 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-05-C. Поиск по справочнику товаров: для скольких строк агент честн</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Поиск по справочнику товаров: для скольких строк агент честно ответил «не найдено»?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Это строки с артикулом, которого нет в справочнике. Их не выдумываем и не удаляем молча.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-05</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>24</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 24 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-06-C. Введите минимальное значение столбца «Маржа %» в расчётном с</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите минимальное значение столбца «Маржа %» в расчётном слое — в процентах, два знака после запятой, числом без знака %.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Маржа % = Прибыль / Выручка × 100. Минимум ищется по всему столбцу; строки с нулевой выручкой должны быть защищены от деления на ноль.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-06</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>15.57</text>
+      <tolerance>0.07785</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 15,57 %; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-07-C. Сколько строк попали в ценовой сегмент «низкий»?</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько строк попали в ценовой сегмент «низкий»?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Сегменты задаются условием в запросе агенту словами.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-07</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>1268</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 1268 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b3-08-C. Сколько строк попали в ценовой сегмент «средний»?</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько строк попали в ценовой сегмент «средний»?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Проверьте, что сумма строк по всем сегментам совпадает с числом строк файла.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b3-08</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>532</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 532 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 4/Вариант C</text></category>
+    <info format="html"><text><![CDATA[<p>Квиз блока 4, вариант C. Числовые вопросы по контрольным суммам датасета. Проходной балл 70%. Попытки не ограничены, берётся высшая оценка. Источник чисел: datasets/passports.json.</p>]]></text></info>
+    <idnumber>ax-b4-c</idnumber>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-01-C. Вы собрали сводную по текстовому ТЗ. Введите общий итог выру</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Вы собрали сводную по текстовому ТЗ. Введите общий итог выручки (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Итог сводной должен совпадать с суммой столбца «Выручка» — это правило двух проверок.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>29264735.5</text>
+      <tolerance>146324</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 29 264 735,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-02-C. Введите выручку региона-лидера (региона с наибольшей выручко</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите выручку региона-лидера (региона с наибольшей выручкой) в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Регион-лидер виден в сводной «регион × месяц» после сортировки по убыванию.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-02</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>7696213.5</text>
+      <tolerance>38481.1</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 7 696 213,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-03-C. Введите прибыль менеджера, который занимает первое место в с</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите прибыль менеджера, который занимает первое место в сводной по прибыли (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: В отчёте используются коды менеджеров, не имена: расшифровка остаётся локально.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-03</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>1983696.01</text>
+      <tolerance>9918.48</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 1 983 696,01 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-04-C. Введите выручку товара, который занимает ПЕРВОЕ место в спис</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите выручку товара, который занимает ПЕРВОЕ место в списке топ-5 товаров (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Топ-5 строится горизонтальными столбцами по убыванию.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-04</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>4431408</text>
+      <tolerance>22157</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 4 431 408 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-05-C. Введите долю категории «Электроника» в общей выручке, в проц</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите долю категории «Электроника» в общей выручке, в процентах с точностью до двух знаков после запятой (числом, без знака %).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Доли категорий — это структура; для неё уместна круговая диаграмма, но не более четырёх долей.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-05</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>28.83</text>
+      <tolerance>0.14415</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 28,83 %; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-06-C. Вы добавили в файл 20 новых строк и обновили отчёт. Введите </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Вы добавили в файл 20 новых строк и обновили отчёт. Введите новый общий итог выручки (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Если отчёт «живой», итог пересчитывается сам; сверьте расхождение — оно должно быть нулевым.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-06</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>29540124.5</text>
+      <tolerance>147701</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 29 540 124,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-07-C. Введите выручку, которую принесли добавленные 20 строк (в ру</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите выручку, которую принесли добавленные 20 строк (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Это разница между итогом после обновления и итогом до него; проверьте её отдельным расчётом.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-07</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>275389</text>
+      <tolerance>1376.94</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 275 389 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b4-08-C. Сколько строк содержит файл вставки insert_20rows_safe.xlsx </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сколько строк содержит файл вставки insert_20rows_safe.xlsx (лист «Сделки», без заголовка)?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Файл уже очищен авторами курса: нулевой шаг для него выполнен.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b4-08</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>20</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 20 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 5/Вариант C</text></category>
+    <info format="html"><text><![CDATA[<p>Квиз блока 5, вариант C. Числовые вопросы по контрольным суммам датасета. Проходной балл 70%. Попытки не ограничены, берётся высшая оценка. Источник чисел: datasets/passports.json.</p>]]></text></info>
+    <idnumber>ax-b5-c</idnumber>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-01-C. Введите базу бюджета — среднемесячную выручку 2025 года (в р</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите базу бюджета — среднемесячную выручку 2025 года (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: База = сумма выручки очищенного файла за все 12 месяцев 2025 года, делённая на 12. В мини-бюджете урока 9 база другая: там берётся только второе полугодие, делённое на 6.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>2438727.96</text>
+      <tolerance>12193.6</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 2 438 727,96 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-02-C. Введите выручку января в построенном бюджете (в рублях с точ</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите выручку января в построенном бюджете (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Январь равен базе: темп роста применяется начиная с февраля. Январь пересчитывают калькулятором вручную — это вторая из двух проверок.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-02</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>2438727.96</text>
+      <tolerance>12193.6</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 2 438 727,96 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-03-C. Введите чистую прибыль за 12 месяцев по БАЗОВОМУ сценарию (в</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите чистую прибыль за 12 месяцев по БАЗОВОМУ сценарию (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.; знак минус вводите, если значение отрицательное).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Драйверы лежат на отдельном листе: изменение одного параметра пересчитывает всю книгу.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-03</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>4417087.01</text>
+      <tolerance>22085.4</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 4 417 087,01 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-04-C. Введите чистую прибыль за 12 месяцев по ОПТИМИСТИЧНОМУ сцена</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите чистую прибыль за 12 месяцев по ОПТИМИСТИЧНОМУ сценарию (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Проверьте правдоподобие по знакам: оптимистичный сценарий не может быть хуже базового.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-04</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>8432416.13</text>
+      <tolerance>42162.1</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 8 432 416,13 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-05-C. Введите чистую прибыль за 12 месяцев по ПЕССИМИСТИЧНОМУ сцен</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите чистую прибыль за 12 месяцев по ПЕССИМИСТИЧНОМУ сценарию (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.; знак минус обязателен, если значение отрицательное).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Если пессимистичный сценарий оказался лучше базового — сценарии перепутаны местами.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-05</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>-469110.84</text>
+      <tolerance>2345.55</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — -469 110,84 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-06-C. Введите минимальный остаток денег на счёте за год по пессими</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите минимальный остаток денег на счёте за год по пессимистичному сценарию (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Это и есть глубина кассового разрыва: прибыль может быть положительной, а деньги — кончиться.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-06</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>-169110.84</text>
+      <tolerance>845.554</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — -169 110,84 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-07-C. Введите ежемесячный платёж по кредиту 1 000 000 р. под 18% г</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите ежемесячный платёж по кредиту 1 000 000 р. под 18% годовых на 12 месяцев (аннуитет, в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Параметры кредита заданы в карточке урока; платёж одинаков во всех вариантах.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-07</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>91679.99</text>
+      <tolerance>458.4</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 91 679,99 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b5-08-C. Введите переплату по этому кредиту (сумма всех платежей мину</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Введите переплату по этому кредиту (сумма всех платежей минус тело кредита), в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Переплата = платёж × 12 − 1 000 000.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b5-08</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>100159.88</text>
+      <tolerance>500.799</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 100 159,88 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="shortanswer">
+    <name><text>sa-b5-01-C. В каком месяце пессимистичный сценарий впервые уходит ниже н</text></name>
+    <questiontext format="html"><text><![CDATA[<p>В каком месяце пессимистичный сценарий впервые уходит ниже нуля по деньгам? Введите название месяца по-русски с заглавной буквы (например: Март).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Смотрите строку накопительного остатка денег, а не строку прибыли.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-sa-b5-01</idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="plain_text">
+      <text>Октябрь</text>
+      <feedback format="html"><text><![CDATA[<p>Верно: точка кассового разрыва — Октябрь.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 6/Вариант C</text></category>
+    <info format="html"><text><![CDATA[<p>Квиз блока 6, вариант C. Числовые вопросы по контрольным суммам датасета. Проходной балл 70%. Попытки не ограничены, берётся высшая оценка. Источник чисел: datasets/passports.json.</p>]]></text></info>
+    <idnumber>ax-b6-c</idnumber>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-01-C. Файл sales_dirty.xlsx (основной проект). Сколько строк с дан</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty.xlsx (основной проект). Сколько строк с данными осталось после очистки качества?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: До очистки строк больше: часть уходит как полные дубликаты.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>400</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 400 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-02-C. Файл sales_dirty.xlsx. Введите сумму выручки после очистки (</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty.xlsx. Введите сумму выручки после очистки (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Очистка качества меняет сумму: текстовые числа и дубликаты учитываются иначе.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-02</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>6243293.5</text>
+      <tolerance>31216.5</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 6 243 293,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-03-C. Файл sales_dirty.xlsx. Сколько полных дубликатов строк вы уд</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty.xlsx. Сколько полных дубликатов строк вы удалили при очистке?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Журнал очистки фиксирует: найдено / исправлено / удалено по каждому типу дефекта.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-03</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>8</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 8 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-04-C. Файл sales_dirty.xlsx. Введите чистую прибыль за 6 месяцев м</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty.xlsx. Введите чистую прибыль за 6 месяцев мини-бюджета по БАЗОВОМУ сценарию (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.; знак минус обязателен, если значение отрицательное).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: База мини-бюджета — среднемесячная выручка второго полугодия очищенного файла.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-04</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>-3351778.38</text>
+      <tolerance>16758.9</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — -3 351 778,38 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-05-C. Файл sales_dirty.xlsx. Введите чистую прибыль за 6 месяцев м</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty.xlsx. Введите чистую прибыль за 6 месяцев мини-бюджета по ОСТОРОЖНОМУ сценарию (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Осторожный сценарий всегда хуже базового — это проверка правдоподобия по знакам.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-05</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>-3946853.52</text>
+      <tolerance>19734.3</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — -3 946 853,52 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-06-C. Файл sales_dirty_2.xlsx (проверка переносимости вашей «Инстр</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty_2.xlsx (проверка переносимости вашей «Инструкции для агента»). Сколько строк с данными осталось после очистки?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Инструкция рабочая, если на новом файле она дала тот же набор шагов и журнал.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-06</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>400</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 400 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-07-C. Файл sales_dirty_2.xlsx. Введите сумму выручки после очистки</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty_2.xlsx. Введите сумму выручки после очистки (в рублях (разделитель — точка); ответ принимается с допуском ±0,5% от эталона.).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Числа второго файла отличаются от первого — это проверка, что вы считали сами, а не переписали.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-07</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>6616727.5</text>
+      <tolerance>33083.6</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 6 616 727,50 р.; допуск ±0,5%.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="numerical">
+    <name><text>n-b6-08-C. Файл sales_dirty_2.xlsx. Сколько полных дубликатов строк вы </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл sales_dirty_2.xlsx. Сколько полных дубликатов строк вы удалили при очистке?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Сверьте с журналом очистки, который собрал агент по вашей инструкции.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-n-b6-08</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>8</text>
+      <tolerance>0</tolerance>
+      <feedback format="html"><text><![CDATA[<p>Верно. Эталонное значение — 8 строк; допуск точное совпадение.</p>]]></text></feedback>
+    </answer>
+    <units/>
+  </question>
+  <question type="calculated">
+    <name><text>c-b6-01-C. Расчётный вопрос (числа у каждого свои)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Расчётный вопрос: у каждого студента свои числа. В строке сделки Количество = {q} шт., Цена = {p} р., Скидка = {d}%. Посчитайте выручку по этой строке: Количество × Цена × (1 − Скидка/100). Ответ введите в рублях (разделитель — точка); принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Именно эту логику вы описываете агенту словами, когда заказываете расчётный столбец «Выручка».</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-c-b6-01</idnumber>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>0</showunits>
+    <unitsleft>0</unitsleft>
+    <answer fraction="100">
+      <text>{q}*{p}*(1-{d}/100)</text>
+      <tolerance>0.005</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text><![CDATA[<p>Верно. Формула: {q}*{p}*(1-{d}/100). Допуск ±0,5% — как во всех числовых вопросах курса.</p>]]></text></feedback>
+    </answer>
+    <dataset_definition>
+      <status><text>private</text></status>
+      <name><text>q</text></name>
+      <type>calculated</type>
+      <distribution><text>uniform</text></distribution>
+      <minimum><text>1</text></minimum>
+      <maximum><text>25</text></maximum>
+      <decimals><text>0</text></decimals>
+      <itemcount>10</itemcount>
+      <dataset_items>
+        <dataset_item>
+          <number>1</number>
+          <value>23</value>
+        </dataset_item>
+        <dataset_item>
+          <number>2</number>
+          <value>17</value>
+        </dataset_item>
+        <dataset_item>
+          <number>3</number>
+          <value>13</value>
+        </dataset_item>
+        <dataset_item>
+          <number>4</number>
+          <value>20</value>
+        </dataset_item>
+        <dataset_item>
+          <number>5</number>
+          <value>10</value>
+        </dataset_item>
+        <dataset_item>
+          <number>6</number>
+          <value>8</value>
+        </dataset_item>
+        <dataset_item>
+          <number>7</number>
+          <value>2</value>
+        </dataset_item>
+        <dataset_item>
+          <number>8</number>
+          <value>15</value>
+        </dataset_item>
+        <dataset_item>
+          <number>9</number>
+          <value>16</value>
+        </dataset_item>
+        <dataset_item>
+          <number>10</number>
+          <value>10</value>
+        </dataset_item>
+      </dataset_items>
+    </dataset_definition>
+    <dataset_definition>
+      <status><text>private</text></status>
+      <name><text>p</text></name>
+      <type>calculated</type>
+      <distribution><text>uniform</text></distribution>
+      <minimum><text>400</text></minimum>
+      <maximum><text>18000</text></maximum>
+      <decimals><text>0</text></decimals>
+      <itemcount>10</itemcount>
+      <dataset_items>
+        <dataset_item>
+          <number>1</number>
+          <value>7226</value>
+        </dataset_item>
+        <dataset_item>
+          <number>2</number>
+          <value>15880</value>
+        </dataset_item>
+        <dataset_item>
+          <number>3</number>
+          <value>9934</value>
+        </dataset_item>
+        <dataset_item>
+          <number>4</number>
+          <value>13096</value>
+        </dataset_item>
+        <dataset_item>
+          <number>5</number>
+          <value>17184</value>
+        </dataset_item>
+        <dataset_item>
+          <number>6</number>
+          <value>13152</value>
+        </dataset_item>
+        <dataset_item>
+          <number>7</number>
+          <value>11516</value>
+        </dataset_item>
+        <dataset_item>
+          <number>8</number>
+          <value>12039</value>
+        </dataset_item>
+        <dataset_item>
+          <number>9</number>
+          <value>12587</value>
+        </dataset_item>
+        <dataset_item>
+          <number>10</number>
+          <value>9537</value>
+        </dataset_item>
+      </dataset_items>
+    </dataset_definition>
+    <dataset_definition>
+      <status><text>private</text></status>
+      <name><text>d</text></name>
+      <type>calculated</type>
+      <distribution><text>uniform</text></distribution>
+      <minimum><text>0</text></minimum>
+      <maximum><text>30</text></maximum>
+      <decimals><text>0</text></decimals>
+      <itemcount>10</itemcount>
+      <dataset_items>
+        <dataset_item>
+          <number>1</number>
+          <value>18</value>
+        </dataset_item>
+        <dataset_item>
+          <number>2</number>
+          <value>0</value>
+        </dataset_item>
+        <dataset_item>
+          <number>3</number>
+          <value>6</value>
+        </dataset_item>
+        <dataset_item>
+          <number>4</number>
+          <value>3</value>
+        </dataset_item>
+        <dataset_item>
+          <number>5</number>
+          <value>20</value>
+        </dataset_item>
+        <dataset_item>
+          <number>6</number>
+          <value>3</value>
+        </dataset_item>
+        <dataset_item>
+          <number>7</number>
+          <value>24</value>
+        </dataset_item>
+        <dataset_item>
+          <number>8</number>
+          <value>0</value>
+        </dataset_item>
+        <dataset_item>
+          <number>9</number>
+          <value>29</value>
+        </dataset_item>
+        <dataset_item>
+          <number>10</number>
+          <value>0</value>
+        </dataset_item>
+      </dataset_items>
+    </dataset_definition>
+  </question>
+  <question type="calculated">
+    <name><text>c-b6-02-C. Расчётный вопрос (числа у каждого свои)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Расчётный вопрос: у каждого студента свои числа. Сумма выручки за второе полугодие составила {s} р. Посчитайте базу мини-бюджета — среднемесячную выручку за этот период. Ответ введите в рублях (разделитель — точка); принимается с допуском ±0,5% от эталона.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>Подсказка: Второе полугодие — это 6 месяцев; база мини-бюджета считается делением суммы на 6.</p>]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-c-c-b6-02</idnumber>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>0</showunits>
+    <unitsleft>0</unitsleft>
+    <answer fraction="100">
+      <text>{s}/6</text>
+      <tolerance>0.005</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text><![CDATA[<p>Верно. Формула: {s}/6. Допуск ±0,5% — как во всех числовых вопросах курса.</p>]]></text></feedback>
+    </answer>
+    <dataset_definition>
+      <status><text>private</text></status>
+      <name><text>s</text></name>
+      <type>calculated</type>
+      <distribution><text>uniform</text></distribution>
+      <minimum><text>600000</text></minimum>
+      <maximum><text>18000000</text></maximum>
+      <decimals><text>0</text></decimals>
+      <itemcount>10</itemcount>
+      <dataset_items>
+        <dataset_item>
+          <number>1</number>
+          <value>5331482</value>
+        </dataset_item>
+        <dataset_item>
+          <number>2</number>
+          <value>17808882</value>
+        </dataset_item>
+        <dataset_item>
+          <number>3</number>
+          <value>8665157</value>
+        </dataset_item>
+        <dataset_item>
+          <number>4</number>
+          <value>12466315</value>
+        </dataset_item>
+        <dataset_item>
+          <number>5</number>
+          <value>15111852</value>
+        </dataset_item>
+        <dataset_item>
+          <number>6</number>
+          <value>6295630</value>
+        </dataset_item>
+        <dataset_item>
+          <number>7</number>
+          <value>13956748</value>
+        </dataset_item>
+        <dataset_item>
+          <number>8</number>
+          <value>8062216</value>
+        </dataset_item>
+        <dataset_item>
+          <number>9</number>
+          <value>13026499</value>
+        </dataset_item>
+        <dataset_item>
+          <number>10</number>
+          <value>3870463</value>
+        </dataset_item>
+      </dataset_items>
+    </dataset_definition>
+  </question>
+</quiz>

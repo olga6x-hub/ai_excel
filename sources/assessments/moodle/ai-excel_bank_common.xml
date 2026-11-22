@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 1/Общие</text></category>
+    <info format="html"><text><![CDATA[<p>Ситуационные вопросы блока 1 — общие для всех трёх вариантов датасета. Порядок вопросов и вариантов ответа перемешивается. Проходной балл 70%.</p>]]></text></info>
+    <idnumber>ax-b1-common</idnumber>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b1-01. Ане нужно добавить в файл столбец «Выручка» и получить измен</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Ане нужно добавить в файл столбец «Выручка» и получить изменённый файл обратно. В каком режиме работы помощника она это получит?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b1-01</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «В режиме агента: помощник сам открывает файл, пишет в таблицу и сохраняет результат.» — Верно. Режим агента — это режим, в котором исполнитель делает действия: открывает файл, меняет лист, сохраняет копию. «В чате вы получаете текст, в режиме агента — готовый файл».</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>В режиме агента: помощник сам открывает файл, пишет в таблицу и сохраняет результат.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Режим агента — это режим, в котором исполнитель делает действия: открывает файл, меняет лист, сохраняет копию. «В чате вы получаете текст, в режиме агента — готовый файл».</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>В режиме чата: помощник пришлёт формулу, и файл изменится сам после её прочтения.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. В чате помощник только советует текстом; файл меняет только режим агента. Формула сама не попадёт в таблицу.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>В режиме чата с приложенным файлом: помощник вернёт изменённый файл вложением.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Приложенный файл в чате — это контекст для ответа текстом, а не разрешение менять файлы. Изменение и сохранение файла — функция режима агента.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>В любом режиме: разницы между ответом текстом и работой с файлами нет.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Разница принципиальна: чат даёт рецепт, агент — обед. Чек-лист платформы начинается с пункта «есть режим, где исполнитель делает действия, а не только отвечает текстом».</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b1-02. Коллега написал агенту запрос: «Добавь столбец „Выручка“: Ко</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Коллега написал агенту запрос: «Добавь столбец „Выручка“: Количество × Цена × (1 − Скидка/100). Покажи сумму столбца и первые пять строк». Какой элемент формулы КЗФП в этом запросе отсутствует?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b1-02</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Контекст: какой файл и какой лист брать.» — Верно. В запросе нет контекста — имени файла и листа. Без них агент может взять не тот файл или «не увидеть» лист; в запросе-образце курса контекст всегда стоит первым: «Файл для разминки, лист Сделки».</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Контекст: какой файл и какой лист брать.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. В запросе нет контекста — имени файла и листа. Без них агент может взять не тот файл или «не увидеть» лист; в запросе-образце курса контекст всегда стоит первым: «Файл для разминки, лист Сделки».</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Задача: бизнес-логика расчёта обычными словами.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Задача в запросе есть: логика «количество × цена × (1 − скидка/100)» описана словами, без названий функций.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Формат: что получить на выходе.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Формат задан: новый столбец и пять строк с результатом. А вот откуда брать данные — не сказано.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Проверка: сумма, которую агент обязан показать.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Проверка в запросе есть: «покажи сумму столбца и первые пять строк». Проблема запроса в другом — не указан источник данных.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b1-03. Агент вернул файл с новым столбцом «Выручка» и написал «всё </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Агент вернул файл с новым столбцом «Выручка» и написал «всё готово». Что должен сделать студент, прежде чем взять столбец в отчёт?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b1-03</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Провести две проверки: сверить контрольную сумму и пересчитать три строки калькулятором.» — Верно. Результат принимается только после двух проверок: контрольной суммы всего столбца и ручного пересчёта трёх строк (или пересчёта другим способом). Агент уверенный, но иногда ошибается.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Провести две проверки: сверить контрольную сумму и пересчитать три строки калькулятором.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Результат принимается только после двух проверок: контрольной суммы всего столбца и ручного пересчёта трёх строк (или пересчёта другим способом). Агент уверенный, но иногда ошибается.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Довериться результату, раз агент показал карточки шагов выполнения.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Карточки шагов показывают, что агент делал, а не что результат верен. В карте типичных ошибок это отдельный случай: «результат принят без проверки» — лечится контрольной суммой и тремя строками вручную.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Спросить агента отдельным сообщением, всё ли посчитано верно.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. На просьбу «проверь себя» агент отвечает «всё верно» без чисел. Проверка — это ваши действия: сумма, три строки калькулятором, сравнение с эталоном.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Пересчитать весь столбец целиком калькулятором, сумму агента не использовать.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Ручная проверка по правилу курса — три строки, а не весь столбец. Контрольную сумму агента используют как первую проверку и сверяют с эталоном (допуск ±0,5%).</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b1-04. После работы агента студент открывает папку и видит: изменён</text></name>
+    <questiontext format="html"><text><![CDATA[<p>После работы агента студент открывает папку и видит: изменён сам warmup.xlsx, а файла-копии в папке нет. Какое правило курса нарушено?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b1-04</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Правило копий: агент работает с копией, исходная выгрузка неприкосновенна.» — Верно. Исходник неприкосновенен, агент работает с копией (_v1, _v2…). Дальше по карте ошибок блока 1: восстановить исходник из эталона и отправить рекламацию.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Правило копий: агент работает с копией, исходная выгрузка неприкосновенна.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Исходник неприкосновенен, агент работает с копией (_v1, _v2…). Дальше по карте ошибок блока 1: восстановить исходник из эталона и отправить рекламацию.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Правило двух проверок: агент не сверил контрольную сумму перед сохранением.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Две проверки — обязанность студента при приёмке результата, и их отсутствие не объясняет, почему изменён исходник. Симптом указывает на другое правило.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Правило нулевого шага: файл ушёл агенту без локальной очистки.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. warmup.xlsx очищен авторами курса, и дело не в данных внутри файла, а в том, какой файл агент изменял. Нулевой шаг здесь ни при чём.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Формула КЗФП: в запросе не была задана буква Ф — формат результата.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Отсутствие формата объясняет непонятный вид результата, а не изменённый исходник. За сохранение копии отвечает правило копий, оно и нарушено.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 2/Общие</text></category>
+    <info format="html"><text><![CDATA[<p>Ситуационные вопросы блока 2 — общие для всех трёх вариантов датасета. Порядок вопросов и вариантов ответа перемешивается. Проходной балл 80%.</p>]]></text></info>
+    <idnumber>ax-b2-common</idnumber>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b2-01. При заполнении паспорта данных студент дошёл до колонки «Зак</text></name>
+    <questiontext format="html"><text><![CDATA[<p>При заполнении паспорта данных студент дошёл до колонки «Закупочная цена» на листе «Справочник товаров». Какую метку из памятки «Три вида данных» нужно поставить напротив этой колонки?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-01</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Коммерческая тайна.» — Верно. Закупочные цены и маржа отнесены курсом к коммерческой тайне: по карточке урока это колонка, по которой принимают отдельное решение — оставить в разрешённом контуре или заменить на доли и диапазоны.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Коммерческая тайна.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Закупочные цены и маржа отнесены курсом к коммерческой тайне: по карточке урока это колонка, по которой принимают отдельное решение — оставить в разрешённом контуре или заменить на доли и диапазоны.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Персональные данные.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Персональные данные — это то, что указывает на человека: ФИО, телефоны, почты, паспортные данные. Цена закупки к человеку не привязана.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Рабочие данные.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Рабочие данные — это колонки расчёта вроде «Количество» и «Скидка»: по ним спокойно считаем. Закупочная цена способна раскрыть маржу компании, поэтому метка другая.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Метка не нужна.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Паспорт данных заполняется по всем колонкам: «напротив каждой колонки напишите одну из трёх меток». Пропуск колонки в паспорте оставляет риск незамеченным — именно против этого паспорт и нужен.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name><text>s-b2-02. Файл с телефонами клиентов уже загружен агенту. Студент пише</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Файл с телефонами клиентов уже загружен агенту. Студент пишет ему: «Обезличь этот файл». Такое сообщение решает проблему утечки.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-02</idnumber>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Сама просьба «обезличить» — это новое сообщение в тот же внешний контур; удалить данные из облака, истории и логов она не может. Поэтому нулевой шаг выполняется локально, до первой отправки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html"><text><![CDATA[<p>Верно, что не решает. Как только файл ушёл, данные покинули ваш контур: облако, история переписки, логи. Просьба обезличить уходит туда же, куда и сам файл. Очистка делается на вашем компьютере, до отправки.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b2-03. Для расчёта топа менеджеров подготовлен файл: ФИО заменены к</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Для расчёта топа менеджеров подготовлен файл: ФИО заменены кодами М1–М6, колонки «Телефон», «Email» и «Примечание» удалены, контроль сумм пройден. Можно ли отправлять этот файл агенту?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-03</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Можно: файл очищен по регламенту, лист-ключ остался на компьютере.» — Верно. Это и есть файл sales_2025_safe.xlsx после нулевого шага: обезличен, контакты удалены, ключ локальный. Во внешний агент отправляем именно такое — обезличенное; топ менеджеров агент выведет в кодах.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Можно: файл очищен по регламенту, лист-ключ остался на компьютере.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Это и есть файл sales_2025_safe.xlsx после нулевого шага: обезличен, контакты удалены, ключ локальный. Во внешний агент отправляем именно такое — обезличенное; топ менеджеров агент выведет в кодах.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Можно, если приложить к файлу лист-ключ, чтобы агент мог назвать менеджеров по именам.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Лист-ключ агенту не уходит никогда: вместе с ним вся деперсонализация обнуляется. Расшифровка кодов делается локально, уже в итоговой табличке для руководителя.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Нельзя: выгрузку сделок целиком агенту отправлять не стоит, считай только локально.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Запрет курса — не на выгрузки как таковые, а на неочищенные данные. После нулевого шага по регламенту файл становится рабочим файлом уроков 3–6 именно для агента.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Нельзя, пока из файла не удалены колонки «Количество» и «Скидка».</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Количество и скидка — рабочие данные, по ним «спокойно считаем»; они нужны для расчёта выручки. Удаляются контакты, примечания и лишние колонки — не данные расчёта.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name><text>s-b2-04. Лист-ключ соответствия «код ↔ ФИО» можно сдать в портфель ку</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Лист-ключ соответствия «код ↔ ФИО» можно сдать в портфель курса вместе с очищенным файлом.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-04</idnumber>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Ключ — единственное, что связывает коды с людьми; сданный в портфель или загруженный агенту, он возвращает в оборот все ФИО. Портфель курса — внешний контур, ключ остаётся у вас.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html"><text><![CDATA[<p>Верно, что нельзя. Ключ хранится только локально: агенту он не уходит никогда и в портфель не сдаётся. В карте ошибок это отдельный пункт — ключ, попавший наружу, обнуляет всю деперсонализацию.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b2-05. После локальной очистки выгрузки студент заметил: число стро</text></name>
+    <questiontext format="html"><text><![CDATA[<p>После локальной очистки выгрузки студент заметил: число строк уменьшилось, а сумма колонки «Количество» изменилась. Что это означает?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-05</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Очистка задела цифры: удалены строки вместо колонок, нужно исправить до отправки.» — Верно. Очистка не должна менять числа. Пропавшие строки и поехавшие суммы — признак удаления строк вместо колонок; контроль «до/после» существует именно для этого, до исправления файл агенту не уходит.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Очистка задела цифры: удалены строки вместо колонок, нужно исправить до отправки.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Очистка не должна менять числа. Пропавшие строки и поехавшие суммы — признак удаления строк вместо колонок; контроль «до/после» существует именно для этого, до исправления файл агенту не уходит.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Очистка прошла верно: после удаления контактов суммы обязаны измениться.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Удаление колонок «Телефон», «Email», «Примечание» не трогает строки и суммы «Количество» и «Цена». Правило контроля: число строк прежнее, суммы прежние.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Очистка неполная: изменение сумм вызвали скрытые листы, надо осмотреть их.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Осмотр скрытых листов — нужный шаг нулевого шага, но скрытые листы не меняют сумму колонки основного листа. Причина изменившихся сумм — потерянные строки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Очистка не нужна: изменения случайны, достаточно сверить суммы после расчётов агентом.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Расхождение сумм после очистки — не случайность, а сигнал испорченных данных; агент, получив такой файл, посчитает всё по неполным строкам. Контроль сумм — до отправки.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b2-06. Выберите ТРИ действия нулевого шага, которые выполняются лок</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Выберите ТРИ действия нулевого шага, которые выполняются локально, на компьютере студента, до отправки выгрузки агенту.</p><p>Отметьте все подходящие варианты (верных: 3).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-06</idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно: отмечены все подходящие варианты и ничего лишнего.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[<p>Частично верно. «Заменить ФИО менеджеров кодами М1–М6 по локальной таблице соответствия.» — Верно, это локальный шаг: замена имён по ключу делается до отправки, сам ключ остаётся у вас. «Удалить колонки «Телефон клиента», «Email клиента» и «Примечание».» — Верно, это локальный шаг: контакты и чувствительные примечания удаляются из файла до того, как он покинет ваш контур. «Проверить, что число строк прежнее, а суммы «Количество» и «Цена» не изменились.» — Верно, это локальный контроль качества очистки: он гарантирует, что обезличивание не задело цифры.</p>]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Подходят такие варианты: «Заменить ФИО менеджеров кодами М1–М6 по локальной таблице соответствия.» — Верно, это локальный шаг: замена имён по ключу делается до отправки, сам ключ остаётся у вас. «Удалить колонки «Телефон клиента», «Email клиента» и «Примечание».» — Верно, это локальный шаг: контакты и чувствительные примечания удаляются из файла до того, как он покинет ваш контур. «Проверить, что число строк прежнее, а суммы «Количество» и «Цена» не изменились.» — Верно, это локальный контроль качества очистки: он гарантирует, что обезличивание не задело цифры.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Заменить ФИО менеджеров кодами М1–М6 по локальной таблице соответствия.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно, это локальный шаг: замена имён по ключу делается до отправки, сам ключ остаётся у вас.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Удалить колонки «Телефон клиента», «Email клиента» и «Примечание».</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно, это локальный шаг: контакты и чувствительные примечания удаляются из файла до того, как он покинет ваш контур.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Проверить, что число строк прежнее, а суммы «Количество» и «Цена» не изменились.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно, это локальный контроль качества очистки: он гарантирует, что обезличивание не задело цифры.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Загрузить выгрузку агенту и попросить удалить из неё персональные данные.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. «Агент сам обезличит» — первая ошибка в карте ошибок блока: к моменту просьбы файл уже во внешнем контуре. Очистка делается до отправки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Приложить лист-ключ к очищенному файлу, чтобы агент мог сверить коды с именами.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Ключ агенту не уходит никогда: с ним он получит обратно все ФИО, и деперсонализация обнулится.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Отложить проверку настроек платформы до второго запроса, когда появится история диалогов.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Настройки — личный или корпоративный аккаунт, обучение на данных, хранение истории — проверяются до первого запроса: именно они определяют, куда попадёт файл.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b2-07. Студент составляет «Регламент безопасной выгрузки» на одну с</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Студент составляет «Регламент безопасной выгрузки» на одну страницу. Выберите ЧЕТЫРЕ пункта, которые по курсу входят в этот регламент.</p><p>Отметьте все подходящие варианты (верных: 4).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-07</idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно: отмечены все подходящие варианты и ничего лишнего.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[<p>Частично верно. «Какие колонки удаляются из выгрузки и какие заменяются кодами.» — Верно. «Что удаляю, что заменяю» — первая строка регламента по шаблону курса. «Где хранится лист-ключ и правило, что он не покидает компьютер.» — Верно. «Где храню ключ» — обязательный пункт регламента: место хранения ключа фиксируется до первой выгрузки, а не в момент утечки. «Какие настройки платформы проверены: контур аккаунта, обучение на данных, история.» — Верно. «Какие настройки платформы проверил» — пункт регламента; без него нельзя знать, куда фактически уходят файлы. «Какие проверки выполняются после очистки: число строк, суммы, поиск контактов.» — Верно. «Что проверяю» — пункт регламента: контрольные проверки после очистки гарантируют, что данные очищены и не испорчены.</p>]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Подходят такие варианты: «Какие колонки удаляются из выгрузки и какие заменяются кодами.» — Верно. «Что удаляю, что заменяю» — первая строка регламента по шаблону курса. «Где хранится лист-ключ и правило, что он не покидает компьютер.» — Верно. «Где храню ключ» — обязательный пункт регламента: место хранения ключа фиксируется до первой выгрузки, а не в момент утечки. «Какие настройки платформы проверены: контур аккаунта, обучение на данных, история.» — Верно. «Какие настройки платформы проверил» — пункт регламента; без него нельзя знать, куда фактически уходят файлы. «Какие проверки выполняются после очистки: число строк, суммы, поиск контактов.» — Верно. «Что проверяю» — пункт регламента: контрольные проверки после очистки гарантируют, что данные очищены и не испорчены.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>Какие колонки удаляются из выгрузки и какие заменяются кодами.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. «Что удаляю, что заменяю» — первая строка регламента по шаблону курса.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>Где хранится лист-ключ и правило, что он не покидает компьютер.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. «Где храню ключ» — обязательный пункт регламента: место хранения ключа фиксируется до первой выгрузки, а не в момент утечки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>Какие настройки платформы проверены: контур аккаунта, обучение на данных, история.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. «Какие настройки платформы проверил» — пункт регламента; без него нельзя знать, куда фактически уходят файлы.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>Какие проверки выполняются после очистки: число строк, суммы, поиск контактов.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. «Что проверяю» — пункт регламента: контрольные проверки после очистки гарантируют, что данные очищены и не испорчены.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Полный список ФИО менеджеров с их кодами для сверки.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Регламент — это правила, а не данные. Сам список соответствия — это и есть лист-ключ, который хранится локально и наружу не передаётся.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Формулы, по которым агент будет считать выручку и прибыль.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Расчётная логика описывается в запросах агенту по КЗФП, а не в регламенте выгрузки. Регламент — о безопасности данных: удаляю, заменяю, проверяю, ключ, настройки.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b2-08. Руководитель прислал выгрузку продаж с телефонами клиентов и</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Руководитель прислал выгрузку продаж с телефонами клиентов и ФИО менеджеров, отчёт нужен к вечеру. Выберите ТРИ правильных действия.</p><p>Отметьте все подходящие варианты (верных: 3).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b2-08</idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно: отмечены все подходящие варианты и ничего лишнего.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[<p>Частично верно. «Провести очистку выгрузки на своём компьютере до загрузки файла агенту.» — Верно. Нулевой шаг делается локально и до отправки — срок «к вечеру» не отменяет правило: сначала очистка, потом агент. «Заполнить паспорт данных: напротив каждой колонки — персональные, коммерческие или рабочие.» — Верно. Паспорт данных — первый шаг очистки: три метки на колонку, пять минут, зато весь риск виден сразу. «До первого запроса проверить настройки платформы: аккаунт, обучение на данных, хранение истории.» — Верно. Настройки проверяются до первого запроса: они определяют контур, в который попадёт файл. После отправки проверять уже поздно.</p>]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Подходят такие варианты: «Провести очистку выгрузки на своём компьютере до загрузки файла агенту.» — Верно. Нулевой шаг делается локально и до отправки — срок «к вечеру» не отменяет правило: сначала очистка, потом агент. «Заполнить паспорт данных: напротив каждой колонки — персональные, коммерческие или рабочие.» — Верно. Паспорт данных — первый шаг очистки: три метки на колонку, пять минут, зато весь риск виден сразу. «До первого запроса проверить настройки платформы: аккаунт, обучение на данных, хранение истории.» — Верно. Настройки проверяются до первого запроса: они определяют контур, в который попадёт файл. После отправки проверять уже поздно.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Провести очистку выгрузки на своём компьютере до загрузки файла агенту.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Нулевой шаг делается локально и до отправки — срок «к вечеру» не отменяет правило: сначала очистка, потом агент.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>Заполнить паспорт данных: напротив каждой колонки — персональные, коммерческие или рабочие.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Паспорт данных — первый шаг очистки: три метки на колонку, пять минут, зато весь риск виден сразу.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>До первого запроса проверить настройки платформы: аккаунт, обучение на данных, хранение истории.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Настройки проверяются до первого запроса: они определяют контур, в который попадёт файл. После отправки проверять уже поздно.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Загрузить выгрузку агенту сразу и попросить удалить телефоны и имена перед расчётом.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. К моменту просьбы файл уже покинул ваш контур: облако, история, логи. «Агент сам обезличит» — типичная ошибка, которая ничем не лечится после отправки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Заменить телефоны звёздочками прямо в файле и отправить агенту в таком виде.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Частичная маскировка — не обезличивание: в файле остаются ФИО и другие признаки, а курс требует замены имён кодами и удаления колонок контактов целиком.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Отправить файл агенту как есть, а после отчёта удалить историю диалога.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Удаление истории на вашей стороне не извлекает файл из облака и логов платформы. Вернуть отправленные данные нельзя — поэтому очистка идёт первой.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 3/Общие</text></category>
+    <info format="html"><text><![CDATA[<p>Ситуационные вопросы блока 3 — общие для всех трёх вариантов датасета. Порядок вопросов и вариантов ответа перемешивается. Проходной балл 70%.</p>]]></text></info>
+    <idnumber>ax-b3-common</idnumber>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b3-01. Нужно пометить в файле крупные сделки по правилу отдела: выр</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Нужно пометить в файле крупные сделки по правилу отдела: выручка больше 100 000. Какой запрос агенту решает эту задачу?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b3-01</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: ««Добавь столбец „Крупная сделка“: „Да“, если Выручка &gt; 100 000, иначе „Нет“. Покажи число „Да“.»» — Верно. Это шаблон условного признака курса: условие словами, значения «Да»/«Нет» и проверка — количество каждого значения.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>«Добавь столбец „Крупная сделка“: „Да“, если Выручка &gt; 100 000, иначе „Нет“. Покажи число „Да“.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Это шаблон условного признака курса: условие словами, значения «Да»/«Нет» и проверка — количество каждого значения.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>«Отсортируй сделки по убыванию выручки и пометь цветом строки сверху списка.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Сортировка с покраской — не признак в столбце: её нельзя посчитать, сверить и использовать дальше в расчётах (например, для бонуса). Условный признак — это столбец «Да»/«Нет».</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>«Посчитай среднюю выручку и поставь „Да“ сделкам выше средней.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Заданное правило отдела — порог 100 000, а не средняя. Подмена условия меняет результат: состав «крупных» сделок будет другим.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>«Удали сделки с выручкой 100 000 и меньше — останутся только крупные.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Удаление строк — крайняя мера, только по явной просьбе и с журналом; здесь оно заодно теряет данные. Пометка признаком сохраняет все строки.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b3-02. Какой запрос на столбец «Маржа %» соответствует правилу курс</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Какой запрос на столбец «Маржа %» соответствует правилу курса — с защитой от деления на ноль?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b3-02</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: ««Маржа % = Прибыль / Выручка; если Выручка = 0, ставь 0 и пометь строку „проверить“.»» — Верно. Это запрос З3.4: маржа как прибыль на выручку, защита от нулевой выручки — ноль и признак «проверить», плюс формат в процентах с одним знаком.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>«Маржа % = Прибыль / Выручка; если Выручка = 0, ставь 0 и пометь строку „проверить“.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. Это запрос З3.4: маржа как прибыль на выручку, защита от нулевой выручки — ноль и признак «проверить», плюс формат в процентах с одним знаком.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>«Маржа % = Выручка / Прибыль; если Прибыль = 0, ставь 0 и пометь строку.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Отношение перевёрнуто: делить нужно прибыль на выручку. Перевёрнутая дробь даст значения, не похожие на маржу, — и контроль по «разумным пределам» это поймает.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>«Маржа % = Прибыль − Выручка, покажи результат в процентах с одним знаком.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Маржа — отношение, а не разность: прибыль, делённая на выручку. Разность даст рубли, а не проценты, и смысл показателя потеряется.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>«Маржа % = Прибыль / Выручка; строки с нулевой выручкой удали из файла.»</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Защита курса — ноль и признак «проверить», а не удаление строк: агент удаляет строки только по явной просьбе, иначе вместе с мусором уйдут данные.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b3-03. Студент попросил: «Подтяни Поставщика из листа „Справочник т</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Студент попросил: «Подтяни Поставщика из листа „Справочник товаров“ по совпадению Артикула». Агент заполнил поставщиками все 1800 строк, ни одного «не найдено». По эталону 24 артикула в справочнике отсутствуют. В чём изъян запроса?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b3-03</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Не задано правило для ненайденных: агенту не сказали писать «не найдено» и не выдумывать.» — Верно. По образцу курса поиск по справочнику сопровождается условием: «если артикул не найден — пиши „не найдено“, ничего не выдумывай. Покажи число ненайденных строк». Без этого условия агент достраивает пропуски сам, и 24 проблемные строки исчезли из виду.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Не задано правило для ненайденных: агенту не сказали писать «не найдено» и не выдумывать.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. По образцу курса поиск по справочнику сопровождается условием: «если артикул не найден — пиши „не найдено“, ничего не выдумывай. Покажи число ненайденных строк». Без этого условия агент достраивает пропуски сам, и 24 проблемные строки исчезли из виду.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Не указан формат результата: в запросе нет имени новой версии файла.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Отсутствие версии файла мешает версионированию, но не объясняет, откуда взялись поставщики у отсутствующих артикулов. Симптом указывает на правило поиска, а не на формат.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Не задана проверка суммой: у текстового столбца нет контрольной суммы.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Для текстового поиска проверкой по курсу служит именно число ненайденных строк и их список — а не сумма. Эту проверку в запросе и просили бы, задав правило для ненайденных.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Не указан ключ связи: агент не мог знать, что связывать по артикулу.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Ключ задан: «по совпадению Артикула». Проблема в другом — для артикулов, которых в справочнике нет, поведение агента не определено, и он подставил значения сам.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b3-04. Сумма столбца «Выручка» от агента заметно выше эталона. Ручн</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Сумма столбца «Выручка» от агента заметно выше эталона. Ручная проверка трёх строк показала: в строках со скидкой 10 результат верный, а в строках, где в колонке записано 0,1, выручка завышена. Как поставить диагноз и что написать агенту?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b3-04</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Агент принял значения 0,1 за проценты; в рекламации назвать столбец, ожидаемую и фактическую суммы и попросить показать изменения.» — Верно. В файле скидка хранится в процентах (10 = 10%), а агент посчитал 0,1 уже долей — скидка почти не применилась, выручка завысилась. Рекламация по шаблону: где неверно, что ожидалось, что получилось, «исправь и покажи, что именно изменил».</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Агент принял значения 0,1 за проценты; в рекламации назвать столбец, ожидаемую и фактическую суммы и попросить показать изменения.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно. В файле скидка хранится в процентах (10 = 10%), а агент посчитал 0,1 уже долей — скидка почти не применилась, выручка завысилась. Рекламация по шаблону: где неверно, что ожидалось, что получилось, «исправь и покажи, что именно изменил».</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Агент удалил часть строк с нулевой скидкой; попросить восстановить строки и показать сверку числа строк.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Удаление строк уменьшило бы сумму, а она завышена; и ручная проверка строк указывает на расчёт по скидке, а не на пропавшие строки. Диагноз ставится по симптомам на конкретных строках.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Агент перепутал колонки и умножал на себестоимость; попросить пересчитать столбец по другой колонке.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Колонки ни при чём: в строках со скидкой 10 результат верный, ломается именно интерпретация значений вида 0,1. Симптом указывает на формат скидки, а не на выбор колонок.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Агент округлял промежуточные результаты; попросить считать без округления и сверить сумму.</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно. Округление дало бы расхождение в последних знаках, а не заметный завал суммы. Крупное завышение в строках со скидкой 0,1 — следствие применения скидки как доли вместо процентов.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 4/Общие</text></category>
+    <info format="html"><text><![CDATA[<p>Ситуационные вопросы блока 4 — общие для всех трёх вариантов датасета. Порядок вопросов и вариантов ответа перемешивается. Проходной балл 70%.</p>]]></text></info>
+    <idnumber>ax-b4-common</idnumber>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b4-01. Руководитель попросил показать, как менялась выручка отдела </text></name>
+    <questiontext format="html"><text><![CDATA[<p>Руководитель попросил показать, как менялась выручка отдела закупок месяц к месяцу в течение года. Какой тип графика нужно заказать агенту по памятке урока 6?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b4-01</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Линейный график с точками месяцев в календарном порядке» — Верно: по памятке динамика во времени — это линия, и месяцы должны идти в календарном порядке, иначе апрель окажется раньше января.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Линейный график с точками месяцев в календарном порядке</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: по памятке динамика во времени — это линия, и месяцы должны идти в календарном порядке, иначе апрель окажется раньше января.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Круговую диаграмму с двенадцатью секторами по месяцам</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: круговая диаграмма отвечает на вопрос «какая доля у части», а не «как меняется показатель во времени»; к тому же двенадцать секторов превышают лимит памятки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Горизонтальную столбчатую диаграмму с сортировкой месяцев от большего к меньшему</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: столбцы нужны для сравнения объектов между собой, а сортировка по значению разрушит календарный порядок времени, который здесь главный.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Таблицу чисел без графика, потому что динамика в графике искажается</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: у курса есть прямое правило «динамика → линия»; отказ от графика не следует ни из памятки, ни из материалов урока.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b4-02. Коллега построил круговую диаграмму долей выручки по всем дв</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Коллега построил круговую диаграмму долей выручки по всем двадцати товарам группы и повесил её в общий отчёт. Что следует сказать коллеге по правилам курса?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b4-02</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Заменить на столбчатую диаграмму, потому что при двадцати сегментах глаз не различает доли» — Верно: памятка урока 6 разрешает круговую только при не более чем пяти сегментах, а для сравнения многих объектов нужны столбцы; это же есть в карте ошибок урока.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Заменить на столбчатую диаграмму, потому что при двадцати сегментах глаз не различает доли</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: памятка урока 6 разрешает круговую только при не более чем пяти сегментах, а для сравнения многих объектов нужны столбцы; это же есть в карте ошибок урока.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Оставить круговую диаграмму, но подписать каждый сектор процентом</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: подписи не решают проблему — сама круговая диаграмма с двадцатью секторами нечитаема, правило про пять сегментов остаётся.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Заменить на линейный график с товарами по горизонтальной оси</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: линия отвечает на вопрос динамики во времени, а товары — это объекты для сравнения, им нужны столбцы.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Построить двадцать отдельных круговых диаграмм, по одной на товар</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: задача — сравнить товары между собой, одна сортированная столбчатая диаграмма решает её; двадцать диаграмм сравнение не показывают.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b4-03. В отдел продаж добавили в исходный лист двадцать новых сдело</text></name>
+    <questiontext format="html"><text><![CDATA[<p>В отдел продаж добавили в исходный лист двадцать новых сделок, но общий итог сводной на листе «Отчёт» не изменился, а сумма столбца «Выручка» выросла. Что это означает по материалам урока 6?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b4-03</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Сводная не обновилась: вероятно, вместо живой сводной в отчёт вставлены значения или картинка» — Верно: карта ошибок урока 6 прямо связывает «после добавления строк итог не изменился» с неотобновившейся или «мёртвой» сводной; проверка — З4.9 кликом, лечение — перестроить и проверить расхождение 0.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Сводная не обновилась: вероятно, вместо живой сводной в отчёт вставлены значения или картинка</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: карта ошибок урока 6 прямо связывает «после добавления строк итог не изменился» с неотобновившейся или «мёртвой» сводной; проверка — З4.9 кликом, лечение — перестроить и проверить расхождение 0.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Новые строки добавлены в сводную верно, а сумма столбца посчитана с ошибкой</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: сумма столбца растёт именно от новых строк — это ожидаемое поведение; контроль курса как раз требует равенства итога сводной и суммы столбца.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Так и должно быть: сводная считает только сделки прошлого года</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: в курсе нет правила «сводная игнорирует новые строки»; наоборот, практикум урока 6 требует, чтобы новые данные вошли в сводную с расхождением 0.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Достаточно удалить новые строки, и расхождение исчезнет</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: задача — включить новые данные в отчёт, а не избавиться от них; удаление строк ломает саму цель обновления.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 5/Общие</text></category>
+    <info format="html"><text><![CDATA[<p>Ситуационные вопросы блока 5 — общие для всех трёх вариантов датасета. Порядок вопросов и вариантов ответа перемешивается. Проходной балл 70%.</p>]]></text></info>
+    <idnumber>ax-b5-common</idnumber>
+  </question>
+  <question type="truefalse">
+    <name><text>s-b5-01. Если после изменения параметра на листе «Драйверы» итоги бюд</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Если после изменения параметра на листе «Драйверы» итоги бюджета не пересчитались, это признак того, что числа зашиты прямо в формулы.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b5-01</idnumber>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html"><text><![CDATA[<p>Верно: железное правило урока 7 — все параметры живут только на «Драйверах»; если смена драйвера ничего не меняет, формулы не ссылаются на драйверы, нужна рекламация и перестройка на ссылки.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: живая модель обязана пересчитываться от драйвера — именно так устроена проверка «меняю один драйвер — пересчитывается вся книга».</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b5-02. В вводной мини-модели кофейни налог задан как 6% от выручки.</text></name>
+    <questiontext format="html"><text><![CDATA[<p>В вводной мини-модели кофейни налог задан как 6% от выручки. Студент пересчитал январь калькулятором и получил чистую прибыль больше, чем показывает модель агента, а все остальные строки января сошлись. Какая ошибка агента наиболее вероятна?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b5-02</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Налог посчитан от прибыли, а не от выручки» — Верно: налог от прибыли меньше налога от выручки при убыточном или малоприбыльном январе, поэтому у агента прибыль оказалась выше ручной; это типовая ошибка из карты урока 7, которую ловит именно ручная проверка января.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Налог посчитан от прибыли, а не от выручки</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: налог от прибыли меньше налога от выручки при убыточном или малоприбыльном январе, поэтому у агента прибыль оказалась выше ручной; это типовая ошибка из карты урока 7, которую ловит именно ручная проверка января.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Себестоимость посчитана от прибыли, а не от выручки</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: себестоимость как доля от меньшей базы дала бы агенту прибыль выше ручной, а не ниже; направление расхождения не сходится.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Маркетинг вообще не учтён в январе</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: тогда не сошлась бы строка операционной прибыли и контроль «сумма статей = итог по месяцу» из листа «Проверки», а по условию остальные строки января сошлись.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Стартовый остаток денег добавлен в выручку января</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: остаток денег не входит в прибыль, а относится к строкам денежного потока — такая ошибка не меняла бы чистую прибыль января.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b5-03. В мини-модели интернет-магазина годовая чистая прибыль полож</text></name>
+    <questiontext format="html"><text><![CDATA[<p>В мини-модели интернет-магазина годовая чистая прибыль положительная, но накопительный остаток денег впервые стал отрицательным в апреле. Как это объяснить по материалам урока 8?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b5-03</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Прибыль и деньги — разные строки: расходы платятся раньше, чем приходят деньги за отгрузки, и остаток денег уходит в минус при положительной прибыли» — Верно: главная мысль урока 8 — прибыль появляется, когда отгрузили, деньги приходят, когда заплатили; между этими событиями живёт кассовый разрыв, который ищут именно по накопительному остатку денег.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Прибыль и деньги — разные строки: расходы платятся раньше, чем приходят деньги за отгрузки, и остаток денег уходит в минус при положительной прибыли</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: главная мысль урока 8 — прибыль появляется, когда отгрузили, деньги приходят, когда заплатили; между этими событиями живёт кассовый разрыв, который ищут именно по накопительному остатку денег.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Модель посчитана верно только частично: положительная прибыль и отрицательный остаток денег несовместимы</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: такое сочетание не только возможно, но и является самим сюжетом урока — кассовый разрыв при прибыльном бизнесе.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Агент перепутал знаки: отрицательный остаток означает, что пессимистичный сценарий ошибочно попал в базовый</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: перепутанные знаки проверяются другим способом — порядком сценариев (пессимистичный хуже базового); сам по себе минус накопительного остатка законен.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Кассовый разрыв надо искать по строке чистой прибыли, а не по остатку денег, поэтому апрель указан неверно</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: карта ошибок урока 8 требует искать разрыв именно по накопительному остатку денег, а не по прибыли.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Табличный редактор текстом: агент вместо формул/Блок 6/Общие</text></category>
+    <info format="html"><text><![CDATA[<p>Ситуационные вопросы блока 6 — общие для всех трёх вариантов датасета. Порядок вопросов и вариантов ответа перемешивается. Проходной балл 70%.</p>]]></text></info>
+    <idnumber>ax-b6-common</idnumber>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b6-01. Для чего курс требует сохранить цепочку действий урока 9 в в</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Для чего курс требует сохранить цепочку действий урока 9 в виде отдельного текстового файла «Инструкция для агента»?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b6-01</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Чтобы получить переиспользуемый плейбук, который прогоняется на новых файлах без повторного объяснения шагов» — Верно: по уроку 9 и плану V2 (строка 172) плейбук — переиспользуемая инструкция, чья переносимость доказывается прогоном на втором файле.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Чтобы получить переиспользуемый плейбук, который прогоняется на новых файлах без повторного объяснения шагов</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: по уроку 9 и плану V2 (строка 172) плейбук — переиспользуемая инструкция, чья переносимость доказывается прогоном на втором файле.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Чтобы агент хранил историю диалога и не терял контекст между сессиями</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: цель инструкции — зафиксировать саму цепочку шагов с требованиями к проверкам, а не организовать память диалогов.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Чтобы сдать этот файл вместо итоговой книги и сократить портфель</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: в портфель входят и итоговая книга, и инструкция, и журналы — инструкция не заменяет результаты работы.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Чтобы преподаватель мог по тексту инструкции выставить оценку за проект</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: в курсе нет преподавателя и ручных проверок — оценка формируется автоматическим контролем: числами, расчётными и ситуационными вопросами.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b6-02. Почему нулевой шаг плейбука — локальное удаление персональны</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Почему нулевой шаг плейбука — локальное удаление персональных данных из выгрузки — выполняет человек, а не агент?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b6-02</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Пока файл не загружен агенту, данные остаются в защищённом контуре; загрузка выводит их наружу, и обезличивать уже поздно» — Верно: это главное правило курса (урок 2 и чекпоинт 0 урока 9): очистка персональных данных делается локально до загрузки, поэтому в плейбуке шаг 0 выполняет человек.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Пока файл не загружен агенту, данные остаются в защищённом контуре; загрузка выводит их наружу, и обезличивать уже поздно</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: это главное правило курса (урок 2 и чекпоинт 0 урока 9): очистка персональных данных делается локально до загрузки, поэтому в плейбуке шаг 0 выполняет человек.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Агент технически не умеет удалять столбцы и редактировать текст внутри файлов выгрузки, поэтому шаг делает человек</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: агент в курсе регулярно меняет листы и столбцы (например, чистка качества на чекпоинте 1); ограничение не в возможностях, а в безопасности данных.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Человек делает шаг 0, потому что агент слишком медленно обрабатывает большие файлы и может не успеть к сроку</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: скорость в правиле нулевого шага не участвует; причина — контур обработки данных.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Шаг 0 делает человек только в том случае, если в выгрузке есть скрытые листы, которых агент не видит</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: нулевой шаг обязателен для любой выгрузки с персональными данными до загрузки агенту, независимо от скрытых листов.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b6-03. Студент утверждает, что его «Инструкция для агента» готова и</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Студент утверждает, что его «Инструкция для агента» готова и переносима. По критериям урока 9 какое действие лучше всего доказывает переносимость инструкции? </p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b6-03</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Прогнать инструкцию на втором файле sales_dirty_2.xlsx, шаг 0 выполнить локально и сверить суммы с эталоном» — Верно: урок 9 требует прогнать плейбук на втором грязном файле (включая свой локальный нулевой шаг) и проверить результат журналами и контрольными суммами — «работает на втором файле — навык переносится».</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Прогнать инструкцию на втором файле sales_dirty_2.xlsx, шаг 0 выполнить локально и сверить суммы с эталоном</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: урок 9 требует прогнать плейбук на втором грязном файле (включая свой локальный нулевой шаг) и проверить результат журналами и контрольными суммами — «работает на втором файле — навык переносится».</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Прогнать инструкцию повторно на том же файле sales_dirty.xlsx и убедиться, что результат совпал</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: повторный прогон на том же файле проверяет воспроизводимость, а не переносимость — файл уже известен цепочке.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Попросить агента прочитать текст инструкции и подтвердить, что она ему полностью понятна</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: подтверждение «понятно» не заменяет выполнение — доказательством служит только реальный прогон с сошедшимися контрольными суммами.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Сравнить текст инструкции с эталоном reference_b6.xlsx постранично и найти расхождения</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: эталон содержит контрольные числа результата, а не текст инструкции; переносимость доказывается прогоном, а не сверкой формулировок.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b6-04. Коллега из отдела закупок получил «грязную» выгрузку поставо</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Коллега из отдела закупок получил «грязную» выгрузку поставок: в ней есть телефоны контактов и примечания с паспортными данными, а по остальным дефектам она похожа на учебные грязные файлы. Он хочет применить ваш плейбук. Какое действие должно быть первым?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b6-04</idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Верный ответ: «Локально, без агента, удалить персональные данные по регламенту, проверить суммы до и после и лишь затем запускать инструкцию на копии» — Верно: плейбук начинается с нулевого шага, который делает человек на любом новом файле; после локальной очистки и контроля сумм запускается остальная цепочка на копии.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Локально, без агента, удалить персональные данные по регламенту, проверить суммы до и после и лишь затем запускать инструкцию на копии</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: плейбук начинается с нулевого шага, который делает человек на любом новом файле; после локальной очистки и контроля сумм запускается остальная цепочка на копии.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Загрузить выгрузку агенту и первой же командой попросить удалить телефоны и паспортные данные</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: к моменту выполнения команды файл с персональными данными уже ушёл во внешний контур — это главное нарушение курса («попросить агента обезличить» нельзя).</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Сначала прогнать инструкцию на копии как есть, чтобы увидеть, какие дефекты в ней есть, а персональные данные убрать в конце</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: любой прогон на неочищенном файле — это уже утечка персональных данных; порядок «сначала очистка, потом агент» не меняется от желания сначала осмотреть данные.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Заменить телефоны и паспорта кодами по листу-ключу и отправить файл с ключом агенту вместе, чтобы агент мог расшифровать результат</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: лист-ключ никогда не загружается агенту — иначе деперсонализация обнуляется; ключ остаётся локально.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b6-05. Отдел обучения проводит аудит портфелей блока 6. Выберите вс</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Отдел обучения проводит аудит портфелей блока 6. Выберите все артефакты, которые по уроку 9 обязаны входить в портфель сдачи.</p><p>Отметьте все подходящие варианты (верных: 6).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b6-05</idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно: отмечены все подходящие варианты и ничего лишнего.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[<p>Частично верно. «Итоговая книга с листом «Отчёт», расчётным слоем и мини-бюджетом» — Верно: итоговая книга — первый пункт портфеля урока 9. «Текстовый файл «Инструкция для агента» с нулевым шагом первым пунктом» — Верно: инструкция — обязательный артефакт портфеля, и она начинается с нулевого шага. «Журнал безопасности и журнал очистки» — Верно: оба журнала входят в портфель и подтверждают локальную очистку и работу агента с дефектами. «Лог диалога с агентом за весь спринт» — Верно: лог диалога входит в портфель и служит защитой авторства работы. «Видео 90 секунд с обезличенным экраном работы» — Верно: видео 90 секунд («меняю драйвер — всё пересчиталось, вот мои проверки») — обязательный элемент портфеля и галереи. «Результат прогона инструкции на sales_dirty_2.xlsx» — Верно: результат прогона на втором файле — доказательство переносимости плейбука, входит в портфель.</p>]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Подходят такие варианты: «Итоговая книга с листом «Отчёт», расчётным слоем и мини-бюджетом» — Верно: итоговая книга — первый пункт портфеля урока 9. «Текстовый файл «Инструкция для агента» с нулевым шагом первым пунктом» — Верно: инструкция — обязательный артефакт портфеля, и она начинается с нулевого шага. «Журнал безопасности и журнал очистки» — Верно: оба журнала входят в портфель и подтверждают локальную очистку и работу агента с дефектами. «Лог диалога с агентом за весь спринт» — Верно: лог диалога входит в портфель и служит защитой авторства работы. «Видео 90 секунд с обезличенным экраном работы» — Верно: видео 90 секунд («меняю драйвер — всё пересчиталось, вот мои проверки») — обязательный элемент портфеля и галереи. «Результат прогона инструкции на sales_dirty_2.xlsx» — Верно: результат прогона на втором файле — доказательство переносимости плейбука, входит в портфель.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="16.66667" format="html">
+      <text><![CDATA[<p>Итоговая книга с листом «Отчёт», расчётным слоем и мини-бюджетом</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: итоговая книга — первый пункт портфеля урока 9.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="16.66667" format="html">
+      <text><![CDATA[<p>Текстовый файл «Инструкция для агента» с нулевым шагом первым пунктом</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: инструкция — обязательный артефакт портфеля, и она начинается с нулевого шага.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="16.66667" format="html">
+      <text><![CDATA[<p>Журнал безопасности и журнал очистки</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: оба журнала входят в портфель и подтверждают локальную очистку и работу агента с дефектами.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="16.66667" format="html">
+      <text><![CDATA[<p>Лог диалога с агентом за весь спринт</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: лог диалога входит в портфель и служит защитой авторства работы.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="16.66667" format="html">
+      <text><![CDATA[<p>Видео 90 секунд с обезличенным экраном работы</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: видео 90 секунд («меняю драйвер — всё пересчиталось, вот мои проверки») — обязательный элемент портфеля и галереи.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="16.66667" format="html">
+      <text><![CDATA[<p>Результат прогона инструкции на sales_dirty_2.xlsx</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: результат прогона на втором файле — доказательство переносимости плейбука, входит в портфель.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-16.66667" format="html">
+      <text><![CDATA[<p>Лист-ключ соответствия кодов и имён менеджеров</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: лист-ключ хранится только локально, никогда не загружается агенту и не сдаётся в портфель.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-16.66667" format="html">
+      <text><![CDATA[<p>Копия исходной грязной выгрузки с персональными данными для сверки</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: наружу (в том числе в портфель и галерею) не передаются файлы с персональными данными; сверка делается контрольными суммами в журналах.</p>]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>s-b6-06. Перед сдачей итоговой книги блока 6 студент прогоняет провер</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Перед сдачей итоговой книги блока 6 студент прогоняет проверку З6.5. Выберите все критерии, которые по уроку 9 обязаны выполняться в итоговой книге.</p><p>Отметьте все подходящие варианты (верных: 4).</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber>ax-common-s-b6-06</idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[<p>Верно: отмечены все подходящие варианты и ничего лишнего.</p>]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[<p>Частично верно. «Сводные — живые сводные таблицы, а не вставленные значения или картинки» — Верно: «живые сводные» — прямое требование З6.5 и чек-листа урока 9. «Драйверы мини-бюджета вынесены отдельным листом, смена драйвера пересчитывает модель» — Верно: критерий З6.5 «драйверы отдельно» плюс пункт чек-листа «мини-бюджет пересчитывается от драйверов». «В книге есть лист проверок с вердиктами по каждой проверке» — Верно: лист проверок — один из критериев З6.5 и требование к структуре книги с урока 7. «В книге нет персональных данных: вместо имён — коды» — Верно: «отсутствие персональных данных» — критерий З6.5; в книге, которую видел агент, только коды.</p>]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[<p>Подходят такие варианты: «Сводные — живые сводные таблицы, а не вставленные значения или картинки» — Верно: «живые сводные» — прямое требование З6.5 и чек-листа урока 9. «Драйверы мини-бюджета вынесены отдельным листом, смена драйвера пересчитывает модель» — Верно: критерий З6.5 «драйверы отдельно» плюс пункт чек-листа «мини-бюджет пересчитывается от драйверов». «В книге есть лист проверок с вердиктами по каждой проверке» — Верно: лист проверок — один из критериев З6.5 и требование к структуре книги с урока 7. «В книге нет персональных данных: вместо имён — коды» — Верно: «отсутствие персональных данных» — критерий З6.5; в книге, которую видел агент, только коды.</p>]]></text></incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>Сводные — живые сводные таблицы, а не вставленные значения или картинки</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: «живые сводные» — прямое требование З6.5 и чек-листа урока 9.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>Драйверы мини-бюджета вынесены отдельным листом, смена драйвера пересчитывает модель</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: критерий З6.5 «драйверы отдельно» плюс пункт чек-листа «мини-бюджет пересчитывается от драйверов».</p>]]></text></feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>В книге есть лист проверок с вердиктами по каждой проверке</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: лист проверок — один из критериев З6.5 и требование к структуре книги с урока 7.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>В книге нет персональных данных: вместо имён — коды</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Верно: «отсутствие персональных данных» — критерий З6.5; в книге, которую видел агент, только коды.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Сводные продублированы вставленными значениями для надёжности</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: вставленные значения — это и есть «мёртвая» сводная, прямой признак брака, а не надёжности.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Числа мини-бюджета зашиты в формулы, чтобы модель не менялась при случайном редактировании драйверов</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: зашитые числа — типовая ошибка урока 7 и урока 9: смена драйвера должна пересчитывать всё.</p>]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Графики в отчёте представлены круговой диаграммой со всеми категориями сразу</p>]]></text>
+      <feedback format="html"><text><![CDATA[<p>Неверно: требование к графикам — соответствовать задаче и быть подписанными; круговая с большим числом сегментов в уроке 6 прямо названа ошибкой.</p>]]></text></feedback>
+    </answer>
+  </question>
+</quiz>

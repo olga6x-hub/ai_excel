@@ -1,0 +1,48 @@
+
+=== courses\ai-excel\lessons\01-srochnyj-otchet\scenes.js — найдено 5
+  [ax1-kzfp] стр.104 fileCard: НАЕЗД НА ГЕККОНА — x 96…160, y -130…-80
+  [ax1-vs] стр.458 fileCard: НАЕЗД НА ГЕККОНА — x 74…138, y -124…-74
+  [ax1-next] стр.534 text «дальше: запрос»: ВЫХОД ЗА ВЕРХ — y -142 (предел −139)
+  [ax1-doubt] стр.594 text «открыть»: ВЫХОД ЗА ВЕРХ — y -140 (предел −139)
+  [ax1-takeaway] стр.622 signCard: НАЕЗД НА ГЕККОНА — x 70…138, y -136…-116
+
+=== courses\ai-excel\lessons\02-snachala-ochistka\scenes.js — найдено 3
+  [ax2-intro] стр.199 rr: НАЕЗД НА ГЕККОНА — x 26…138, y -128…-50
+  [ax2-contour] стр.356 rr: НАЕЗД НА ГЕККОНА — x 62…158, y -116…-50
+  [ax2-start] стр.501 text «чек-лист очистки»: ВЫХОД ЗА ВЕРХ — y -141 (предел −139)
+
+=== courses\ai-excel\lessons\03-stolbcy-slovami\scenes.js — найдено 2
+  [ax3-bigdeal] стр.369 text «выручка больше 100 000»: НАЕЗД НА ГЕККОНА — x 52…136, y -138…-131
+  [ax3-bigdeal] стр.372 tickBadge: НАЕЗД НА ГЕККОНА — x 147…157, y -123…-113
+
+=== courses\ai-excel\lessons\04-spravochnik-daty-reklamaciya\scenes.js — найдено 4
+  [ax4-howto] стр.318 rr: НАЕЗД НА ГЕККОНА — x 104…156, y -128…-78
+  [ax4-request] стр.372 rr: НАЕЗД НА ГЕККОНА — x 100…160, y -130…-78
+  [ax4-next] стр.425 rr: НАЕЗД НА ГЕККОНА — x 108…156, y -132…-76
+  [ax4-margin] стр.505 circle: НАЕЗД НА ГЕККОНА — x 121…151, y -119…-89
+=== courses\ai-excel\lessons\05-svodnaya-tekstom\scenes.js: чисто
+
+=== courses\ai-excel\lessons\06-otchet-kotoryj-zhivyot\scenes.js — найдено 6
+  [ax6-pick] стр.239 rr: НАЕЗД НА ГЕККОНА — x 60…152, y -128…-68
+  [ax6-how] стр.350 rr: НАЕЗД НА ГЕККОНА — x 104…160, y -128…-84
+  [ax6-line] стр.407 tickBadge: НАЕЗД НА ГЕККОНА — x 153…163, y -127…-117
+  [ax6-second] стр.444 rr: НАЕЗД НА ГЕККОНА — x 112…162, y -126…-84
+  [ax6-slicerq] стр.626 rr: НАЕЗД НА ГЕККОНА — x 112…160, y -128…-72
+  [ax6-slicer] стр.688 rr: НАЕЗД НА ГЕККОНА — x 68…132, y -130…-74
+
+=== courses\ai-excel\lessons\07-byudzhet-na-drayverah\scenes.js — найдено 7
+  [ax7-start] стр.198 rr: НАЕЗД НА ГЕККОНА — x 96…154, y -124…-80
+  [ax7-base] стр.438 rr: НАЕЗД НА ГЕККОНА — x 70…154, y -128…-66
+  [ax7-basecalc] стр.486 rr: НАЕЗД НА ГЕККОНА — x -8…148, y -114…-62
+  [ax7-aggregate] стр.583 rr: НАЕЗД НА ГЕККОНА — x 60…154, y -122…-56
+  [ax7-budget] стр.625 rr: НАЕЗД НА ГЕККОНА — x 62…158, y -126…-64
+  [ax7-rows] стр.696 tickBadge: НАЕЗД НА ГЕККОНА — x 153…163, y -129…-119
+  [ax7-january] стр.770 bubble «объясни февраль словами»: НАЕЗД НА ГЕККОНА — x 36…148, y -116…-96
+
+=== courses\ai-excel\lessons\08-scenarii-kassovyj-razryv\scenes.js — найдено 1
+  [ax8-values] стр.289 signCard: НАЕЗД НА ГЕККОНА — x 53…151, y -117…-91
+
+=== courses\ai-excel\lessons\09-cepochka-odnim-soobshcheniem\scenes.js — найдено 1
+  [ax9-zerostep] стр.426 text «шаг 0 делает человек»: НАЕЗД НА ГЕККОНА — x 58…134, y -135…-128
+
+ИТОГО находок: 29 (файлов проверено 9)

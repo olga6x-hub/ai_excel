@@ -1,0 +1,8 @@
+# локальное
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# крупные артефакты, которые не нужны в истории
+sources/lessons/*/*.mp3
+sources/lessons/*/_tts_parts/
