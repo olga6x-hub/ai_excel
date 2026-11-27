@@ -122,7 +122,7 @@ def calibrate(A):
         if key in seen_cm:
             continue
         seen_cm.add(key)
-        if abs(round(catmon[key]) - float(r[ix["Выручка категории за месяц"]])) > 0.51:
+        if abs(float(catmon[key]) - float(r[ix["Выручка категории за месяц"]])) > 0.011:
             mism["catmon"] += 1
     return dict(mism)
 
@@ -288,7 +288,7 @@ def calc_layer(sales_rows, ref_rows):
             margin, float(bonus),
             "низкий" if r[8] < 5000 else ("средний" if r[8] <= 15000 else "высокий"),
             "Да" if seen[r[1]] > 1 else "Нет",
-            int(cat_month[(r[6], d.month)].to_integral_value(rounding=_HU))])
+            float(cat_month[(r[6], d.month)])])
     c = Counter()
     for row in rows:
         c["big"] += row[ix["Крупная сделка"]] == "Да"
@@ -315,7 +315,7 @@ def calc_layer(sales_rows, ref_rows):
 def build_pivots(layer, insert_rows):
     ix = {n: i for i, n in enumerate(layer[0])}
     rev, prof = ix["Выручка"], ix["Прибыль"]
-    s1 = [("Регион \\ Месяц", *MONTHS_RU, "Итог")]
+    s1 = [("Регион \\ Месяц", *MONTHS_RU, "Итого")]
     reg_rev = defaultdict(lambda: [0.0] * 12)
     for r in layer[1:]:
         reg_rev[r[3]][r[0].month - 1] += r[rev]
@@ -323,8 +323,8 @@ def build_pivots(layer, insert_rows):
         vals = [money(x) for x in reg_rev[reg]]
         s1.append((reg, *vals, money(sum(vals))))
     col_tot = [money(sum(row[m + 1] for row in s1[1:])) for m in range(12)]
-    s1.append(("Итог", *col_tot, money(sum(col_tot))))
-    s2 = [("Менеджер \\ Категория", *CATEGORIES, "Итог")]
+    s1.append(("Итого", *col_tot, money(sum(col_tot))))
+    s2 = [("Менеджер \\ Категория", *CATEGORIES, "Итого")]
     mgr = defaultdict(lambda: [0.0] * 4)
     for r in layer[1:]:
         mgr[r[2]][CATEGORIES.index(r[6])] += r[prof]
@@ -348,7 +348,7 @@ def build_pivots(layer, insert_rows):
     ins_dec = money(sum(float(r[7]) * float(r[8]) * (1 - float(r[9]) / 100)
                         for r in insert_rows[1:] if r[0].month == 12))
     s1b = [tuple(row) for row in s1[:6]] + [
-        ("Итог", *col_tot, money(sum(col_tot) + ins_rev))]
+        ("Итого", *col_tot, money(sum(col_tot) + ins_rev))]
     ctrl = {
         "total": money(sum(col_tot)), "leader_region": max(REGIONS, key=lambda g: sum(reg_rev[g])),
         "leader_region_rev": money(max(sum(reg_rev[g]) for g in REGIONS)),

@@ -1,30 +1,35 @@
 # Курс «Табличный редактор текстом» — передача менеджеру Moodle
 
-Версия **v1.0** от 2026-11-22. Курс: 9 уроков, 6 квизов × 3 варианта, 9 портфельных заданий,
+Версия **v1.1** от 2026-11-22. Курс: 9 уроков, 6 квизов × 3 варианта, 9 портфельных заданий,
 нулевой раздел, шаблоны студента, SCORM-пакеты, обложка.
+
+v1.1 отличается от v1.0 исправлением контрольных чисел вариантов B и C (округление колонки
+«Выручка категории за месяц» до рублей) и добавленной самопроверкой варианта в нулевом разделе.
+Если у вас уже скачан v1.0 — замените архив.
 
 ## Что читать первым
 
 1. **[HANDOVER_MOODLE.md](HANDOVER_MOODLE.md)** — что внутри, порядок сборки, приёмка,
    известные ограничения версии.
-2. **`releases/ai-excel-v1.0-moodle-delivery.zip`** — готовый архив курса (27,9 МБ).
-   Контрольная сумма — `releases/SHA256SUMS.txt`.
+2. **`releases/ai-excel-v1.1-moodle-delivery.zip`** — готовый архив курса (27,9 МБ).
+   Контрольная сумма — `releases/SHA256SUMS.txt`
+   (`2633b0581434591129c37e03c0e59b1d0c80bcdb81f4e5c6ba547e9bdcfb7644`).
 
 ## Как забрать
 
-**Вариант 1 (проще):** скачать архив со страницы релиза —
-https://github.com/olga6x-hub/ai_excel/releases/tag/v1.0
+**Проще всего** — скачать архив со страницы релиза:
+https://github.com/olga6x-hub/ai_excel/releases/tag/v1.1
 
-**Вариант 2 (с историей):**
+**С историей и исходниками:**
 
 ```bash
 git clone https://github.com/olga6x-hub/ai_excel.git
 cd ai_excel
-unzip releases/ai-excel-v1.0-moodle-delivery.zip -d ../ai-excel-v1.0
+unzip releases/ai-excel-v1.1-moodle-delivery.zip -d ../ai-excel-v1.1
 ```
 
-Контроль целостности: `sha256sum ai-excel-v1.0-moodle-delivery.zip` должен совпасть
-с `releases/SHA256SUMS.txt` (007da03e35d1ae506e984c6ee0d280ec005770e8b8ac8c92610f44a10ec53a66).
+Контроль целостности: `sha256sum ai-excel-v1.1-moodle-delivery.zip` должен совпасть
+с `releases/SHA256SUMS.txt` (`2633b058…dcfb7644`).
 
 Дальше — по разделу 3 `HANDOVER_MOODLE.md` (нулевой раздел → банк вопросов → три объекта →
 группы → SCORM-уроки → квизы → задания → датасеты → проверка ролью student).
